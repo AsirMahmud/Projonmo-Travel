@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply m-2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+

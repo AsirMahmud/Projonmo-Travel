@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply m-2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  @apply font-bold lg:text-5xl md:text-3xl text-2xl;
+}
+.header2 {
+  @apply font-bold text-xl;
+}
+
+p,
+label,
+input,
+li {
+  @apply text-sm text-[#6D7E8A];
+}
