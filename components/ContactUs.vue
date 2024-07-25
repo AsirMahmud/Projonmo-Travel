@@ -41,7 +41,7 @@ const data = [{
             </div>
             <main class="flex flex-col-reverse lg:flex-row lg:justify-between  lg:gap-16 gap-8 w-full ">
                 <form class=" flex gap-4 flex-col w-full lg:w-[50%]">
-                    <div class="w-full flex gap-4 ">
+                    <div class="w-full flex lg:flex-row flex-col gap-4 ">
                         <div class="w-full">
                             <div class="flex flex-col gap-2 w-full">
                                 <label for="fullName">Full Name *</label>
