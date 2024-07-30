@@ -12,9 +12,9 @@
                     <div class="flex flex-col gap-2">
                         <h1 class="text-2xl md:text-4xl font-bold break-words">Our Mission</h1>
                         <p class="text-base md:text-lg leading-relaxed break-words">
-                            Our goal is to help businesses leverage the power of technology to improve their processes,
-                            increase efficiency, and reduce costs. We believe that technology can be a powerful tool for
-                            growth and innovation, and we're dedicated to helping you achieve success.
+                            Our mission is to provide exceptional travel solutions that exceed our clients'
+                            expectations. We aim to be a trusted partner in your travel journey, offering personalized
+                            and innovative services that cater to all your travel needs.
                         </p>
                     </div>
                 </div>
@@ -22,26 +22,17 @@
                     <h2 class="text-lg md:text-2xl font-semibold break-words">What we offer</h2>
                     <div class="flex flex-col gap-2">
                         <p class="text-base md:text-lg break-words">
-                            <span class="font-extrabold">Web Development:</span> We create stunning and functional
-                            websites
-                            that engage your audience and represent your
-                            brand.
+                            We specialize in efficient visa
+                            management, ensuring smooth processing for tourist, medical, business, and work visas. Our
+                            air ticket booking service provides competitive rates and convenient options for flights
+                            worldwide. For those seeking employment abroad, we handle work permits and related visas
+                            with expertise and precision. Additionally, we offer supportive courses tailored for
+                            individuals preparing to work or study overseas, ensuring a smooth transition. Our
+                            customized tour packages cater to diverse interests, from adventure and relaxation to
+                            cultural exploration and more.
                         </p>
-                        <p class="text-base md:text-lg break-words">
-                            <span class="font-extrabold">Mobile App Development:</span> We develop customized mobile
-                            apps
-                            that are optimized for the best user experience on both iOS and Android platforms.
-                        </p>
-                        <p class="text-base md:text-lg break-words">
-                            <span class="font-extrabold">UI/UX Design:</span> We create intuitive and visually appealing
-                            interfaces that provide an exceptional user experience for your customers.
-                        </p>
-                        <p class="text-base md:text-lg break-words">
-                            At Luminalogik, we pride ourselves on our ability to collaborate closely with our clients to
-                            understand their unique needs and goals. We're committed to delivering innovative and
-                            effective
-                            solutions that help our clients achieve success and grow their businesses.
-                        </p>
+
+
                     </div>
                 </div>
             </div>

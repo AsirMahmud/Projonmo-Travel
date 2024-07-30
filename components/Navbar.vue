@@ -1,9 +1,9 @@
 <script setup>
 const data = [
-    { name: 'Home', link: '/' },
-    { name: 'Services', link: '/sevices' },
-    { name: 'About', link: '/about' },
-    { name: 'Contact Us', link: '/contactUs' }
+    { name: 'Home', link: '#' },
+    { name: 'Services', link: '#sevices' },
+    { name: 'About', link: '#about' },
+    { name: 'Contact Us', link: '#contactUs' }
 ]
 
 </script>
@@ -17,7 +17,7 @@ const data = [
             <div class=" md:block hidden">
                 <div class="flex items-center gap-8">
                     <div class="flex gap-8">
-                        <NuxtLink v-for="i in data" :key="i.link" :to="i.link"
+                        <NuxtLink v-for="i in data" :key="i.link" :to="{ hash: i.link }"
                             class="hover:text-blue-500 text-sm text-primary ">{{
                                 i.name
                             }}

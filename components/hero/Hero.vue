@@ -30,9 +30,9 @@
                             visa-related needs. We specialize in providing a wide range of services to ensure your
                             travel
                             experience is smooth, enjoyable, and hassle-free.</p>
-                        <button type="button"
-                            class="text-white w-36 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded text-lg px-5 py-2.5 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contact
-                            us</button>
+                        <NuxtLink :to="{ hash: '#contactUs' }"><button type="button"
+                                class="text-white w-36 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded text-lg px-5 py-2.5 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contact
+                                us</button></NuxtLink>
                     </div>
                     <div class=" lg:w-[50%] w-full">
                         <img src="public/hero.png

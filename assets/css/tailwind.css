@@ -6,6 +6,10 @@ button {
   @apply m-2;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }

@@ -67,7 +67,7 @@ const breakpoints = ref({
 </script>
 <template>
 
-    <div class="h-auto ">
+    <div class="h-auto overflow-hidden ">
         <main
             class="container  bg-[#E6EDF8] items-center  overflow-hidden max-w-full lg:max-w-full  w-full   mx-auto text-start   flex flex-col gap-4 lg:p-16  md:p-8 p-4">
 
@@ -90,7 +90,7 @@ const breakpoints = ref({
             </section>
 
         </main>
-        <div class="lg:-mt-64 w-full  border ">
+        <div class="lg:-mt-64 w-full lg:ml-[17%]   ">
             <div class=" w-full ">
                 <div class=" mx-auto   lg:bg-none  bg-[#E6EDF8] lg:bg-white/0  flex flex-col items-center max-w-full">
 

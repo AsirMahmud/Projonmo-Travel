@@ -3,12 +3,12 @@
 </script>
 
 <template>
-    <Hero></Hero>
-    <Sevices></Sevices>
+    <Hero id="#"></Hero>
+    <Sevices id="sevices"></Sevices>
     <Slider></Slider>
-    <WhyChooseUs></WhyChooseUs>
-    <OurMission></OurMission>
+    <WhyChooseUs id="whyChooseUs"></WhyChooseUs>
+    <OurMission id="about"></OurMission>
     <WhatOurClientSays></WhatOurClientSays>
     <OurProfile></OurProfile>
-    <ContactUs></ContactUs>
+    <ContactUs id="contactUs"></ContactUs>
 </template>
