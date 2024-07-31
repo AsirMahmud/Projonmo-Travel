@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 
 
-
 const slides = ref([
     {
         image: "https://via.placeholder.com/600x400?text=Canada",
@@ -63,13 +62,17 @@ const breakpoints = ref({
         slidesPerView: 3,
         spaceBetween: 30,
     },
+    1800: {
+        slidesPerView: 4,
+        spaceBetween: 30
+    }
 });
 </script>
 <template>
 
     <div class="h-auto overflow-hidden ">
         <main
-            class="container  bg-[#E6EDF8] items-center  overflow-hidden max-w-full lg:max-w-full  w-full   mx-auto text-start   flex flex-col gap-4 lg:p-16  md:p-8 p-4">
+            class="container   bg-[#E6EDF8]  justify-center  overflow-hidden max-w-full lg:max-w-full  w-full    mx-auto text-start   flex gap-4 lg:p-16  md:p-8 p-4">
 
             <section class="lg:w-[1200px] relative lg:h-[350px]">
                 <div class="w-[200px]  h-[300px] absolute  right-0 blur-3xl"
@@ -88,6 +91,7 @@ const breakpoints = ref({
 
 
             </section>
+
 
         </main>
         <div class="lg:-mt-64 w-full lg:ml-[17%]   ">
@@ -137,6 +141,14 @@ const breakpoints = ref({
 
                             </div>
                         </swiper-slide>
+                        <template v-slot:container-start>
+                            <Previous class=" top-0 absolute left-5"></Previous>
+
+                        </template>
+                        <template v-slot:container-end>
+                            <Next class=" top-0 absolute fe-5"></Next>
+
+                        </template>
                     </swiper>
                 </div>
             </div>
