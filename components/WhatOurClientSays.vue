@@ -142,13 +142,10 @@ const breakpoints = ref({
                             </div>
                         </swiper-slide>
                         <template v-slot:container-start>
-                            <Previous class=" top-0 absolute left-5"></Previous>
-
+                            <Previous class=" top-0 absolute left-5 "></Previous>
+                            <Next class=" top-0 absolute left-20"></Next>
                         </template>
-                        <template v-slot:container-end>
-                            <Next class=" top-0 absolute fe-5"></Next>
 
-                        </template>
                     </swiper>
                 </div>
             </div>
