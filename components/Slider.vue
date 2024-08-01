@@ -71,8 +71,7 @@ const breakpoints = ref({
         <div class="lg:max-w-[1200px] border flex flex-col gap-8 items-center max-w-[380px]">
             <h2 class="header">Our Access</h2>
             <p class="text-gray-600 mb-8 w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore.
+                Unlock exclusive benefits and unparalleled access to top destinations and premium travel experiences.
             </p>
             <swiper :breakpoints="breakpoints" :slides-per-view="1" :space-between="10"
                 class="my-swiper lg:max-w-[1200px] border max-w-[300px]">

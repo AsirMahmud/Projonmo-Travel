@@ -14,19 +14,19 @@
             </section>
             <section class="flex gap-16 lg:flex-row flex-col ">
                 <ul class="flex flex-col gap-4">
+                    <NuxtLink class="font-bold">Company</NuxtLink>
+                    <NuxtLink to="#about">About</NuxtLink>
+                    <NuxtLink to="#sevices">Services</NuxtLink>
+                    <NuxtLink to="">Career</NuxtLink>
+                    <NuxtLink to="">FAQ</NuxtLink>
+                </ul>
+                <!-- <ul class="flex flex-col gap-4">
                     <li class="font-bold">Company</li>
                     <li>About</li>
                     <li>Services</li>
                     <li>Career</li>
                     <li>FAQ</li>
-                </ul>
-                <ul class="flex flex-col gap-4">
-                    <li class="font-bold">Company</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Career</li>
-                    <li>FAQ</li>
-                </ul>
+                </ul> -->
                 <ul class="flex flex-col gap-4">
                     <li class="font-bold">Contact Info</li>
                     <li>info@subscription.xyz</li>

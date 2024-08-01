@@ -1,7 +1,7 @@
 <script setup>
-const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: '' },
-{ title: 'Easy Payment', image: '/wcu2.png', description: '' },
-{ title: '24/7 Support', image: '/wcu3.png', description: '' }]
+const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: "Enjoy exclusive deals and significant savings on flights, hotels, and tours, making your dream vacation more affordable." },
+{ title: 'Easy Payment', image: '/wcu2.png', description: "Benefit from flexible payment options, including installments and multiple payment methods, for a hassle-free booking experience." },
+{ title: '24/7 Support', image: '/wcu3.png', description: "Rely on our round-the-clock support team for assistance with any inquiries or issues before, during, and after your trip. Travel with confidence knowing we're always here for you." }]
 
 </script>
 
@@ -11,13 +11,7 @@ const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: '' }
 
             <div class="flex  flex-col lg:flex-row   items-center w-full  justify-between">
                 <h1 class="header lg:w-1/3">Why Choose Us</h1>
-                <p class="lg:w-1/2 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti aperiam
-                    iusto
-                    quam
-                    impedit rerum
-                    magni omnis distinctio consequuntur libero. Excepturi deleniti adipisci repellat minima mollitia
-                    laboriosam
-                    vero autem quo!</p>
+                <p class="lg:w-1/2 p-2">Discover the Difference with Projomo Travel!</p>
                 <p
                     class="font-bold text-black hover:underline  cursor-pointer flex items-center gap-x-2 lg:text-xl text-lg">
                     <span>Get
@@ -32,14 +26,11 @@ const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: '' }
 
             </div>
             <div class="w-full grid lg:grid-cols-3 md:grid-cols-2 md:place-items-start place-items-center  ">
-                <div class="lg:w-[384px] w-full h-[311px]  lg:p-8 p-4 hover:shadow-2xl flex flex-col gap-4"
+                <div class="lg:w-[384px] w-full h-[311px]   lg:p-8 p-4 hover:shadow-2xl flex flex-col gap-4"
                     v-for=" i in data">
                     <NuxtImg width="70px" height="70px" :src="i.image"></NuxtImg>
-                    <h1 class="font-bold text-xl">{{ i.title }}</h1>
-                    <p class="lg:pr-0 pr-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestias
-                        commodi odio eveniet
-                        totam veniam tempore, asperiores ipsam temporibus iure fugit est aspernatur dolore eaque rerum
-                        doloremque odit quis rem.</p>
+                    <h1 class="font-bold text-xl flex-1">{{ i.title }}</h1>
+                    <p class="lg:pr-0 pr-4">{{ i.description }}</p>
 
                 </div>
             </div>

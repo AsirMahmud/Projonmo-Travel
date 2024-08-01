@@ -4,46 +4,73 @@ import { ref } from 'vue';
 
 const slides = ref([
     {
-        image: "https://via.placeholder.com/600x400?text=Canada",
-        title: "Canada",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Ahmed Khan",
+        "job": "Software Engineer",
+        "title": "Excellent Service",
+        "remarks": "The company and their team have handled my business trip perfectly, from ticket booking to visa processing. Their efficiency and attention to detail ensured a smooth and stress-free experience. Highly recommended for professional travel needs."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=China",
-        title: "China",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Fatima Begum",
+        "job": "Teacher",
+        "title": "Smooth Experience",
+        "remarks": "The team at Projonmo Tours made my vacation planning effortless. Their expertise in visa management and personalized service made my trip enjoyable and worry-free. I will definitely use their services again."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
-        title: "India",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Karim Chowdhury",
+        "job": "Doctor",
+        "title": "Professional Service",
+        "remarks": "I am pleased with the organization as they have provided exceptional service for my medical conference abroad. Their thorough planning and professional approach ensured all arrangements were perfect, allowing me to focus on my work. Highly reliable agency."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
-        title: "Maldives",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Ayesha Rahman",
+        "job": "University Student",
+        "title": "Budget-Friendly",
+        "remarks": "As a student, finding affordable travel options is crucial. Projonmo Tours offered budget-friendly packages without compromising on quality. Their support and guidance made my educational trip memorable and affordable."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
-        title: "India",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Rafiq Islam",
+        "job": "Businessman",
+        "title": "Reliable Agency",
+        "remarks": "For my frequent business travels, I trust Projonmo Tours. Their efficiency in booking and visa management saves me time and hassle. Their reliable services are invaluable for my professional needs."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
-        title: "Maldives",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Nusrat Jahan",
+        "job": "Bank Manager",
+        "title": "Outstanding Support",
+        "remarks": "Projonmo Tours provided outstanding support for my family holiday. Their attention to detail and personalized service ensured a delightful and stress-free vacation. They handled everything perfectly, from flights to hotel bookings."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
-        title: "India",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Zafar Iqbal",
+        "job": "Civil Engineer",
+        "title": "Highly Satisfied",
+        "remarks": "I am highly satisfied with Projonmo Tours. Their comprehensive travel solutions and expert guidance exceeded my expectations. They managed all aspects of my trip seamlessly, making it a wonderful experience."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
-        title: "Maldives",
-        description: "Lorem ipsum dolor sit amet, consectetur."
+        "name": "Mariam Akhtar",
+        "job": "Graphic Designer",
+        "title": "Great Experience",
+        "remarks": "My experience with Projonmo Tours was fantastic. Their innovative solutions and attention to detail made my travel plans hassle-free. I appreciated their personalized approach and highly recommend their services."
+    },
+    {
+        "name": "Hasan Mahmud",
+        "job": "Journalist",
+        "title": "Efficient Service",
+        "remarks": "Projonmo Tours provided efficient and reliable service for my international assignment. Their clear communication and professional handling of all travel arrangements ensured a smooth trip. Ideal for media professionals with tight schedules."
+    },
+    {
+        "name": "Shabnam Yasmin",
+        "job": "Lawyer",
+        "title": "Exceptional Care",
+        "remarks": "The exceptional care and meticulous planning by Projonmo Tours made my vacation delightful. Their expertise in managing visas and travel itineraries ensured everything was perfect. I felt well taken care of throughout my trip."
+    },
+    {
+        "name": "Mahmud Billah",
+        "job": "Media And Branding",
+        "title": "Great Hospitality",
+        "remarks": "I want to express my sincere thanks for your proactive support and guidance. Your assistance has been crucial in obtaining my visa. My special thanks to Saiful vaiya who helped me throughout my application procedure."
     }
-]);
+]
+);
 
 const breakpoints = ref({
     0: {
@@ -74,7 +101,7 @@ const breakpoints = ref({
         <main
             class="container   bg-[#E6EDF8]  justify-center  overflow-hidden max-w-full lg:max-w-full  w-full    mx-auto text-start   flex gap-4 lg:p-16  md:p-8 p-4">
 
-            <section class="lg:w-[1200px] relative lg:h-[350px]">
+            <section class="lg:w-[1200px] relative lg:h-[350px] ">
                 <div class="w-[200px]  h-[300px] absolute  right-0 blur-3xl"
                     style=" background: linear-gradient(197.37deg, #7450DB -0.38%, rgba(138, 234, 240, 0) 101.89%), linear-gradient(115.93deg, #3E88F6 4.86%, rgba(62, 180, 246, 0.33) 38.05%, rgba(62, 235, 246, 0) 74.14%), radial-gradient(56.47% 76.87% at 6.92% 7.55%, rgba(62, 136, 246, 0.7) 0%, rgba(62, 158, 246, 0.182) 52.16%, rgba(62, 246, 246, 0) 100%), linear-gradient(306.53deg, #2EE4E3 19.83%, rgba(46, 228, 227, 0) 97.33%); background-blend-mode: multiply, overlay, lighten, darken, luminosity, color-dodge; filter: blur(200px);">
 
@@ -108,13 +135,13 @@ const breakpoints = ref({
 
                                     </div>
                                     <div>
-                                        <p class="font-bold text-black">Johnson Charles</p>
-                                        <p class="">Developer</p>
+                                        <p class="font-bold text-black">{{ slide.name }}</p>
+                                        <p class="">{{ slide.job }}</p>
 
                                     </div>
                                 </div>
                                 <div class=" w-full flex gap-4">
-                                    <p class="text-black font-bold ">Amazing Website loved it very much.</p>
+                                    <p class="text-black font-bold ">{{ slide.title }}</p>
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <rect opacity="0.4" x="0.40918" width="47.2818" height="48"
@@ -132,18 +159,17 @@ const breakpoints = ref({
 
                                 </div>
                                 <div class="">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate magni
-                                        officiis
-                                        asperiores corrupti nam saepe illum expedita, rerum quidem minima praesentium
-                                        accusamus deleniti laudantium temporibus commodi eos eius reprehenderit quia!
+                                    <p>{{ slide.remarks }}
                                     </p>
                                 </div>
 
                             </div>
                         </swiper-slide>
                         <template v-slot:container-start>
-                            <Previous class=" top-0 absolute left-5 "></Previous>
-                            <Next class=" top-0 absolute left-20"></Next>
+                            <div class=" flex gap-4 z-50 top-10 left-0 right-[30%] -mt-5 mb-4">
+                                <Previous class="  "></Previous>
+                                <Next class=""></Next>
+                            </div>
                         </template>
 
                     </swiper>

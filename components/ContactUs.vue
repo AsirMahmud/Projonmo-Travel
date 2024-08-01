@@ -27,6 +27,8 @@ const data = [{
 
 ]
 
+
+
 </script>
 
 <template>
@@ -103,3 +105,16 @@ const data = [{
 
     </div>
 </template>
+<style scoped>
+label {
+    @apply text-black font-bold
+}
+
+input {
+    @apply border border-black bg-white
+}
+
+textarea {
+    @apply border border-black bg-white
+}
+</style>
