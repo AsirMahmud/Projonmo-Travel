@@ -19,8 +19,7 @@ const pages = ref([
         <div class="max-w-[800px] mx-auto  items-center p-16 flex flex-col gap-8">
             <div class="flex flex-col gap-4 text-center">
                 <h1 class="lg:text-4xl text-2xl  font-bold">Our Profile</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rem autem error laborum quisquam ad
-                    esse saepe tempore cum molestias minus modi, mollitia fugit assumenda aut similique fuga sit illo.
+                <p>Projonmo Tours and Travels, based in Bangladesh, offers a complete range of travel services, ensuring seamless, enjoyable journeys with expert guidance, transparent pricing, and innovative solutions tailored to your needs.
                 </p>
             </div>
             <div class="flipbook-container  ">
