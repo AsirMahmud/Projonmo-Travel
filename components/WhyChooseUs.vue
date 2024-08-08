@@ -1,7 +1,7 @@
 <script setup>
-const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: "Enjoy exclusive deals and significant savings on flights, hotels, and tours, making your dream vacation more affordable." },
-{ title: 'Easy Payment', image: '/wcu2.png', description: "Benefit from flexible payment options, including installments and multiple payment methods, for a hassle-free booking experience." },
-{ title: '24/7 Support', image: '/wcu3.png', description: "Rely on our round-the-clock support team for assistance with any inquiries or issues before, during, and after your trip. Travel with confidence knowing we're always here for you." }]
+const data = [{ title: 'Comprehensive Services', image: '/wcu1.png', description: "From visa management to air ticket booking, we offer a full range of travel solutions to cater to all your needs.Expert Guidance: Our experienced team provides personalized travel planning and support, ensuring you receive expert advice and assistance." },
+{ title: 'Transparent Pricing', image: '/wcu2.png', description: "We uphold integrity and transparency in our pricing, guaranteeing no hidden costs and clear, upfront information for all our services.Innovative Solutions: Leveraging the latest technology, we offer innovative travel solutions that enhance your overall travel experience." },
+{ title: 'Customer-Centric Approach', image: '/wcu3.png', description: "RYour satisfaction is our top priority. We focus on providing a smooth and enjoyable travel experience tailored to your preferences.Local Expertise: We understand the unique travel needs of Bangladeshi travelers and tailor our services to ensure a memorable and hassle-free journey." }]
 
 </script>
 
@@ -33,6 +33,12 @@ const data = [{ title: 'Discounted Price', image: '/wcu1.png', description: "Enj
                     <p class="lg:pr-0 pr-4">{{ i.description }}</p>
 
                 </div>
+            </div>
+            <div>
+                <p class="text-wrap">Projonmo Tours and Travels, based in Bangladesh, offers a complete range of travel
+                    services,
+                    ensuring seamless, enjoyable journeys with expert guidance, transparent pricing, and innovative
+                    solutions tailored to your needs.</p>
             </div>
         </div>
     </div>

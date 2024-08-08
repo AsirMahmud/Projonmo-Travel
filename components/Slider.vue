@@ -5,42 +5,42 @@ import { ref } from 'vue';
 
 const slides = ref([
     {
-        image: "https://via.placeholder.com/600x400?text=Canada",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Vertical_Flag_of_the_People%27s_Republic_of_China.svg",
         title: "Canada",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=China",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_United_Arab_Emirates_%28vertical%29.svg/1200px-Flag_of_the_United_Arab_Emirates_%28vertical%29.svg.png",
         title: "China",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZ8wT1esYA4ZT94pGhFQetIiKqV_fDWzCDw&s",
         title: "India",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJNJVGSPQKipIQn9lJwIVsbYAw7wDlCOcmg&s",
         title: "Maldives",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Poland_vertical.png/1200px-Flag_of_Poland_vertical.png",
         title: "India",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UMwCqZ7BPZbLIXMmX-v28cyDLzInosf5Xg&s",
         title: "Maldives",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=India",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6ZSkoKTlBXKWYi6lgFb3BNHjWuu6_pZHVw&s",
         title: "India",
         description: "Lorem ipsum dolor sit amet, consectetur."
     },
     {
-        image: "https://via.placeholder.com/600x400?text=Maldives",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_l4tBqpl8KL0LlXj4SdLYfviqLwWq5l_2A&s",
         title: "Maldives",
         description: "Lorem ipsum dolor sit amet, consectetur."
     }
