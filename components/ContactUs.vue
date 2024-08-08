@@ -126,7 +126,7 @@ label {
 }
 
 input, select, textarea {
-    @apply border border-black bg-white
+    @apply border border-black bg-white placeholder:text-gray-400 text-black
 }
 
 textarea {
