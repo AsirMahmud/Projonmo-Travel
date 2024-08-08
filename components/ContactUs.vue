@@ -27,6 +27,17 @@ const data = [{
 
 ]
 
+const services = [
+    "Visa Management",
+    "Air Ticket Booking",
+    "Work Permit",
+    "E-Visa Processing",
+    "Legalization",
+    "Hotel Reservation",
+    "Supportive Courses",
+    "Tour Packages"
+];
+
 
 
 </script>
@@ -68,8 +79,12 @@ const data = [{
                     </div>
                     <div class="flex flex-col gap-2 w-full">
                         <label for="service">Service</label>
-                        <input id="service" placeholder="service" class="bg-[#EEEFF4] h-11 rounded px-2 py-4"
+                        <select id="service" placeholder="service" class="bg-[#EEEFF4] h-11 rounded px-2 "
                             name="service">
+                            <option disabled selected>Select a service</option>
+                            <option v-for="i in services" value="i" key="i" class="text-black">{{ i }}</option>
+
+                        </select>
                     </div>
                     <div class="flex flex-col gap-2 w-full">
                         <label for="comment">Comment*</label>
@@ -110,7 +125,7 @@ label {
     @apply text-black font-bold
 }
 
-input {
+input, select, textarea {
     @apply border border-black bg-white
 }
 

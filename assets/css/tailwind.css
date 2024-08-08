@@ -24,6 +24,7 @@ body {
 p,
 label,
 input,
+select,
 li {
   @apply text-sm text-[#6D7E8A];
 }

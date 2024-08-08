@@ -42,10 +42,7 @@ const data = [
     }
 ]
 const viewMore = ref(false)
-const toggler = (i) => {
-    viewMore.value = !viewMore
 
-}
 
 </script>
 
